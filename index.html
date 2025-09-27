@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="grid-container">
+    <header> <!--This is my header-->
+      <h1>Devan Martin</h1>
+      <h2>Aspiring Web Developer</h2>
+    </header>
+    <nav> <!--These are the navigation links-->
+      <a class="nav-link-padding" href="#summary">Summary</a>
+      <a class="nav-link-padding" href="#education">Education</a>
+      <a class="nav-link-padding" href="#skills">Skills</a>
+      <a class="nav-link-padding" href="Fs">Projects</a>
+      <a class="nav-link-padding" href="#contact">Contact Information</a>
+    </nav>
+    <main>
+      <div class="content-padding">
+        <h2 id="summary">Summary</h2> <!--This is a summary of who I am-->
+        <p>
+          Hi there! My name is Devan Martin and I am a sophomore at Northern Arizona 
+          University. I haven't done a full four years in just one high school or college,
+          rather, I have moved around schools. For example, I only attended Cactus Shadows
+          High School for my first two years of high school. Then, I moved to Gateway
+          Academy. I decided to do only one year at community college because it wasn't
+          giving me the college experience I had hoped for. So, I transfered here to NAU.
+        </p>
+        <p>
+          In my free time, I enjoy coding, hiking, and watching YouTube. I am (sort of) 
+          proficient in HTML and CSS, and I am practicing JavaScript in my free time. I'm
+          excited to learn more about these languages in this course. On YouTube, I like
+          watching videos about politics and crime. A fact about me is that I was born and 
+          raised in the Phoenix area. I am glad to be out of there so I can experience the
+          cooler weather and nature in Flagstaff.
+      </p>
+      </div>
+      <h2 id="education" class="content-padding">Education</h2> <!--This is a table documenting my education-->
+        <table> 
+        <thead>
+          <tr>
+            <th>Education</th>
+            <th>Description</th>
+            <th>Timeframe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Northern Arizona University</td>
+            <td>Pursuing a bachelor's degree in software engineering.</td>
+            <td>2025-2028</td>
+          </tr>
+          <tr>
+            <td>Paradise Valley Community College</td>
+            <td>Attended for my freshman year of college.</td>
+            <td>2024-2025</td>
+          </tr>
+          <tr>
+            <td>Gateway Academy</td>
+            <td>Attended this high school for my junior and senior years of high school.</td>
+            <td>2022-2024</td>
+          </tr>
+          <tr>
+            <td>Cactus Shadows High School</td>
+            <td>Attended for my freshman and sophomore years of high school</td>
+            <td>2020-2022</td>
+          </tr>
+          </tbody>
+        </table>
+      
+      <div id="projects-skills-container">
+        <div id="projects" class="projects-grid-container content-padding"> <!--This section includes my projects-->
+        <h2 id="project-header">Projects</h2>
+        <p id="project-name">Personal Portfolio</p>
+        <p id="project-desc">
+          The personal portfolio shown in the image below is a previous iteration of this current 
+          portfolio. Currently, it is my only project. I plan on making more projects as I 
+          improve at markup and programming languages.
+        </p>
+        <img id="project-img" class="project-img" src="project.png" alt="personal portfolio site image">
+        <img class="project-img" src="project1.png" alt="updated personal portfolio site image">
+      </div>
+      <div id="skills" class="content-padding"> <!--These are my skills-->
+        <h2>Skills</h2> <!--I used flexbox to put these skills in a column-->
+        <p class="skill">HTML</p>
+        <p class="skill">CSS</p>
+        <p class="skill">JavaScript Basics</p>
+      </div>
+      </div>
+      
+    </main>
+    <footer class="content-padding relative-position"> <!--This is a footer that has my contact info and downloadable resume-->
+      <h2 id="contact">Contact Information</h2>
+      <p id="abs-pos1">Email: dam839@nau.edu</p> <!--I used absolute and relative positioning-->
+      <p id="abs-pos2">Phone Number: (480) 789-0613</p>
+      <p id="abs-pos3">LinkedIn: <a href="https://www.linkedin.com/in/devan-martin-45a285341/">View my LinkedIn Profile</a></p>
+      <button id="abs-pos4" class="resume-button"><a href="https://docs.google.com/document/d/1QqGyugmEYduLbIEKxoV1eLABlKNHQvhdnBqRcaWDUg0/edit?usp=sharing">My Resume</a></button>
+    </footer>
+  </div>
+</body>
+</html>
